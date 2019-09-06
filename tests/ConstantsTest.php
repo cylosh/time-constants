@@ -17,7 +17,7 @@ class ConstantsTest extends TestCase
     public function testConstantsAreDefined($constant)
     {
         $this->assertTrue(defined($constant), 'Expected the constant to be defined.');
-        $this->assertInternalType('integer', constant($constant), 'Expected an integer value.');
+        $this->assertIsInt(constant($constant), 'Expected an integer value.');
     }
 
     /**
@@ -32,6 +32,19 @@ class ConstantsTest extends TestCase
             'One day (in seconds)'          => ['DAY_IN_SECONDS'],
             'One week (in seconds'          => ['WEEK_IN_SECONDS'],
             'One 30-day month (in seconds)' => ['MONTH_IN_SECONDS'],
+            'One 31-day month (in seconds)' => ['JANUARY_IN_SECONDS'],
+            'One 29-day month (in seconds)' => ['FEBRUARY_LEAP_IN_SECONDS'],
+            'One 28-day month (in seconds)' => ['FEBRUARY_IN_SECONDS'],
+            'One 31-day month (in seconds)' => ['MARCH_IN_SECONDS'],
+            'One 30-day month (in seconds)' => ['APRIL_IN_SECONDS'],
+            'One 31-day month (in seconds)' => ['MAY_IN_SECONDS'],
+            'One 30-day month (in seconds)' => ['JUNE_IN_SECONDS'],
+            'One 31-day month (in seconds)' => ['JULY_IN_SECONDS'],
+            'One 31-day month (in seconds)' => ['AUGUST_IN_SECONDS'],
+            'One 30-day month (in seconds)' => ['SEPTEMBER_IN_SECONDS'],
+            'One 31-day month (in seconds)' => ['OCTOBER_IN_SECONDS'],
+            'One 30-day month (in seconds)' => ['NOVEMBER_IN_SECONDS'],
+            'One 31-day month (in seconds)' => ['DECEMBER_IN_SECONDS'],
             'One year (in seconds)'         => ['YEAR_IN_SECONDS'],
             'One minute (in minutes)'       => ['ONE_MINUTE'],
             'One hour (in minutes)'         => ['HOUR_IN_MINUTES'],
