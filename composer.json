@@ -1,5 +1,5 @@
 {
-    "name": "stevegrunwell/time-constants",
+    "name": "cylosh/time-constants",
     "description": "A series of constants designed to make it easier to express time in PHP applications",
     "type": "library",
     "license": "MIT",
@@ -8,11 +8,16 @@
             "name": "Steve Grunwell",
             "email": "steve@stevegrunwell.com",
             "homepage": "https://stevegrunwell.com"
+        },
+        {
+            "name": "Alex I. Tudor",
+            "email": "alex@cylo.ro",
+            "homepage": "https://stevegrunwell.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/stevegrunwell/time-constants/issues",
-        "source": "https://github.com/stevegrunwell/time-constants"
+        "issues": "https://github.com/cylosh/time-constants/issues",
+        "source": "https://github.com/cylosh/time-constants"
     },
     "require": {},
     "require-dev": {

@@ -48,40 +48,40 @@ if (! defined('JANUARY_IN_SECONDS')) {
     define('JANUARY_IN_SECONDS', 31 * DAY_IN_SECONDS);
 }
 if (! defined('FEBRUARY_LEAP_IN_SECONDS')) {
-  define('FEBRUARY_LEAP_IN_SECONDS', 29 * DAY_IN_SECONDS);
+    define('FEBRUARY_LEAP_IN_SECONDS', 29 * DAY_IN_SECONDS);
 }
 if (! defined('FEBRUARY_IN_SECONDS')) {
-  define('FEBRUARY_IN_SECONDS', 28 * DAY_IN_SECONDS);
+    define('FEBRUARY_IN_SECONDS', 28 * DAY_IN_SECONDS);
 }
 if (! defined('MARCH_IN_SECONDS')) {
-  define('MARCH_IN_SECONDS', 31 * DAY_IN_SECONDS);
+    define('MARCH_IN_SECONDS', 31 * DAY_IN_SECONDS);
 }
 if (! defined('APRIL_IN_SECONDS')) {
-  define('APRIL_IN_SECONDS', 30 * DAY_IN_SECONDS);
+    define('APRIL_IN_SECONDS', 30 * DAY_IN_SECONDS);
 }
 if (! defined('MAY_IN_SECONDS')) {
-  define('MAY_IN_SECONDS', 31 * DAY_IN_SECONDS);
+    define('MAY_IN_SECONDS', 31 * DAY_IN_SECONDS);
 }
 if (! defined('JUNE_IN_SECONDS')) {
-  define('JUNE_IN_SECONDS', 30 * DAY_IN_SECONDS);
+    define('JUNE_IN_SECONDS', 30 * DAY_IN_SECONDS);
 }
 if (! defined('JULY_IN_SECONDS')) {
-  define('JULY_IN_SECONDS', 31 * DAY_IN_SECONDS);
+    define('JULY_IN_SECONDS', 31 * DAY_IN_SECONDS);
 }
 if (! defined('AUGUST_IN_SECONDS')) {
-  define('AUGUST_IN_SECONDS', 31 * DAY_IN_SECONDS);
+    define('AUGUST_IN_SECONDS', 31 * DAY_IN_SECONDS);
 }
 if (! defined('SEPTEMBER_IN_SECONDS')) {
-  define('SEPTEMBER_IN_SECONDS', 30 * DAY_IN_SECONDS);
+    define('SEPTEMBER_IN_SECONDS', 30 * DAY_IN_SECONDS);
 }
 if (! defined('OCTOBER_IN_SECONDS')) {
-  define('OCTOBER_IN_SECONDS', 31 * DAY_IN_SECONDS);
+    define('OCTOBER_IN_SECONDS', 31 * DAY_IN_SECONDS);
 }
 if (! defined('NOVEMBER_IN_SECONDS')) {
-  define('NOVEMBER_IN_SECONDS', 30 * DAY_IN_SECONDS);
+    define('NOVEMBER_IN_SECONDS', 30 * DAY_IN_SECONDS);
 }
 if (! defined('DECEMBER_IN_SECONDS')) {
-  define('DECEMBER_IN_SECONDS', 31 * DAY_IN_SECONDS);
+    define('DECEMBER_IN_SECONDS', 31 * DAY_IN_SECONDS);
 }
 
 /* For common usage, assume one year = 365 days. */
